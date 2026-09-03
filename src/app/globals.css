@@ -47,7 +47,7 @@
 }
 
 .dark {
-  /* Cores da Maevio Tech - Modo Escuro */
+  
   --background: #1c1b21;
   --foreground: #fcf8ff;
   
@@ -89,7 +89,7 @@
   }
 }
 
-/* Classes de tipografia do design system */
+
 @layer components {
   .display-lg {
     font-family: 'Inter', sans-serif;
@@ -141,5 +141,23 @@
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.02em;
+  }
+}
+
+/* Container personalizado da Maevio Tech */
+@layer components {
+  .container-maevio {
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .container-maevio {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
   }
 }
