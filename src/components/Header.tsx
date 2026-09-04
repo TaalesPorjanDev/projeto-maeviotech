@@ -1,13 +1,21 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
+import { MobileMenu } from "@/components/mobile/MobileMenu";
+
 
 export function Header() {
+  
+
+  
   return (
-    <header className="bg-background border-b border-gray-200">
+    <header className="bg-background border-b border-gray-200 z-50">
       <div className="container-maevio flex items-center justify-between h-16">
         <Link href="/" className="flex items-center">
           <Image
+            className="w-46 h-auto shrink-0 md:w-46"
             src="/images/maeviotech-logo.svg"
             alt="Maevio Tech"
             width={200}
@@ -47,10 +55,14 @@ export function Header() {
         </nav>
         <Button
           render={<Link href="/orcamento" />}
-          className="hidden md:inline-flex ml-6 h-11 bg-[#7C6FF0] hover:bg-[#5a4dd1] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors"
+          nativeButton={false}
+          className="hidden md:inline-flex ml-4 h-10 bg-[#7C6FF0] hover:bg-[#5a4dd1] text-white text-sm 
+          font-semibold px-3 py-2.5 rounded-lg transition-colors md:ml-6 md:mr-4 md:h-11 md:px-6 md:text-base"
         >
           Solicitar Orçamento
         </Button>
+        <MobileMenu />
+
       </div>
     </header>
   );
