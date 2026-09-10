@@ -29,15 +29,15 @@ export function HeroSection() {
               <Button
                 render={<Link href="/contato" />}
                 nativeButton={false}
-                className="bg-[#5a4dd1] hover:bg-[#7C6FF0] text-white h-auto md:w-auto font-bold px-6 py-4 rounded-lg
+                className="bg-[#5a4dd1] hover:bg-[#7C6FF0] text-white h-auto md:w-auto text-sm font-bold px-6 py-4 rounded-lg
                 transition-colors md:px-8 md:text-lg"
               >
                 Fale Comigo
-                <ArrowRight className="ml-2 size-5" />
+                <ArrowRight className="ml-1 size-5" />
               </Button>
               <Link
                 href="/portfolio"
-                className="text-[#5a4dd1] font-semibold bg-violet-50 rounded-lg hover:bg-violet-100
+                className="text-[#5a4dd1] font-semibold bg-violet-50 rounded-lg text-sm hover:bg-violet-100
               transition-colors hover:text-[#7C6FF0] w-full md:w-auto px-6 py-4 md:text-lg"
               >
                 Ver Portfólio

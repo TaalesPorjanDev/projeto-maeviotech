@@ -6,7 +6,7 @@ import Link from 'next/link';
 export function HeroMobile() {
   return (
     <section className="md:hidden bg-background pt-10 pb-16 bg-linear-to-b from-white to-[#f5f3ff]">
-      <div className="container-maevio flex flex-col items-center text-center gap-6 px-6">
+      <div className="container-maevio flex flex-col items-start text-left gap-6 px-6">
         <h1 className="max-w-2xl text-4xl font-bold">
           Sites e sistemas web que fazem sua empresa{' '}
           <span className="text-[#5a4dd1]">vender mais</span>
@@ -19,14 +19,14 @@ export function HeroMobile() {
           <Button
             render={<Link href="/contato" />}
             nativeButton={false}
-            className="bg-[#5a4dd1] hover:bg-[#7C6FF0] text-white h-auto w-full font-bold px-6 py-4 rounded-lg transition-colors"
+            className="bg-[#5a4dd1] hover:bg-[#7C6FF0] text-white h-auto w-full font-bold text-sm px-6 py-4 rounded-lg transition-colors"
           >
             Fale Comigo
-            <ArrowRight className="ml-2 size-5" />
+            <ArrowRight className="ml-1 size-5" />
           </Button>
           <Link
             href="/portfolio"
-            className="text-[#5a4dd1] font-semibold bg-violet-50 rounded-lg hover:bg-violet-100 transition-colors hover:text-[#7C6FF0] w-full text-center px-6 py-4"
+            className="text-[#5a4dd1] font-semibold bg-violet-50 rounded-lg text-sm hover:bg-violet-100 transition-colors hover:text-[#7C6FF0] w-full text-center px-6 py-4"
           >
             Ver Portfólio
           </Link>
