@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+
 
 export function HeaderMobile() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +22,7 @@ export function HeaderMobile() {
       </div>
 
       <div
-        className={`absolute top-16 left-0 right-0 z-50 md:hidden flex flex-col px-6 py-4 bg-background shadow-md border-t
+        className={`absolute top-16 left-0 right-0 z-50 md:hidden flex flex-col px-6 py-4 bg-white shadow-lg border-t
              border-gray-200
             transition-all duration-200 ease-in-out ${isOpen ? 'opacity-100 max-h-screen' : 'opacity-0 max-h-0 overflow-hidden'}`}
       >
