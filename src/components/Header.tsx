@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { MobileMenu } from "@/components/mobile/MobileMenu";
+import { MobileMenu } from "@/components/mobile/MenuMobile";
 
 
 export function Header() {
@@ -56,12 +56,13 @@ export function Header() {
         <Button
           render={<Link href="/orcamento" />}
           nativeButton={false}
-          className="hidden md:inline-flex ml-4 h-10 bg-[#7C6FF0] hover:bg-[#5a4dd1] text-white text-sm 
+          className="inline-flex ml-4 h-10 bg-[#5a4dd1] hover:bg-[#7C6FF0] text-white text-sm 
           font-semibold px-3 py-2.5 rounded-lg transition-colors md:ml-6 md:mr-4 md:h-11 md:px-6 md:text-base"
         >
           Solicitar Orçamento
         </Button>
         <MobileMenu />
+
 
       </div>
     </header>
