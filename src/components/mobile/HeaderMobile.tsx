@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { navLinks } from "@/lib/nav-links";
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
 import { X } from 'lucide-react';
@@ -22,41 +23,20 @@ export function HeaderMobile() {
       </div>
 
       <div
-        className={`absolute top-16 left-0 right-0 z-50 md:hidden flex flex-col px-6 py-4 bg-white shadow-lg border-t
-             border-gray-200
+        className={`absolute top-16 left-0 right-0 z-50 md:hidden flex flex-col px-6 py-4 bg-background shadow-lg border-t
+             border-border
             transition-all duration-200 ease-in-out ${isOpen ? 'opacity-100 max-h-screen' : 'opacity-0 max-h-0 overflow-hidden'}`}
       >
-        <Link
-          href="/servicos"
-          className="text-gray-600 font-medium py-3 transition-colors hover:text-[#7C6FF0] text-right"
-          onClick={() => setIsOpen(false)}
-        >
-          Serviços
-        </Link>
-
-        <Link
-          href="/sobre"
-          className="text-gray-600 font-medium py-3 transition-colors hover:text-[#7C6FF0] text-right"
-          onClick={() => setIsOpen(false)}
-        >
-          Sobre
-        </Link>
-
-        <Link
-          href="/portfolio"
-          className="text-gray-600 font-medium py-3 transition-colors hover:text-[#7C6FF0] text-right"
-          onClick={() => setIsOpen(false)}
-        >
-          Portfólio
-        </Link>
-
-        <Link
-          href="/contato"
-          className="text-gray-600 font-medium py-3 transition-colors hover:text-[#7C6FF0] text-right"
-          onClick={() => setIsOpen(false)}
-        >
-          Contato
-        </Link>
+        {navLinks.map((link) => (
+          <Link
+            key={link.href}
+            href={link.href}
+            className='"text-gray-600 font-medium py-3 transition-colors hover:text-primary/90 text-right'
+            onClick={() => setIsOpen(false)}
+          >
+              {link.label}
+          </Link>
+        ))}
         
       </div>
     </div>
