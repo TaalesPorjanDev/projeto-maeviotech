@@ -4,46 +4,45 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Cores da Maevio Tech - Modo Claro */
-  --background: #fcf8ff;
-  --foreground: #1c1b21;
-  
-  --card: #ffffff;
-  --card-foreground: #1c1b21;
-  
-  --popover: #ffffff;
-  --popover-foreground: #1c1b21;
-  
-  --primary: #574eb1;
-  --primary-foreground: #ffffff;
-  
-  --secondary: #5a53a9;
-  --secondary-foreground: #ffffff;
-  
-  --muted: #f6f2fb;
-  --muted-foreground: #474552;
-  
-  --accent: #7067cc;
-  --accent-foreground: #ffffff;
-  
-  --destructive: #ba1a1a;
-  --destructive-foreground: #ffffff;
-  
-  --border: #c8c4d4;
-  --input: #c8c4d4;
-  --ring: #5951b4;
-  
-  --radius: 0.5rem;
-  
-  /* Cores extras do design */
-  --surface: #fcf8ff;
-  --surface-dim: #dcd8e1;
-  --surface-container: #f0ecf5;
-  --surface-container-high: #ebe6f0;
-  --on-surface: #1c1b21;
-  --on-surface-variant: #474552;
-  --outline: #787583;
-  --outline-variant: #c8c4d4;
+--background: #fafafa;
+--foreground: #18181b;
+
+--card: #ffffff;
+--card-foreground: #18181b;
+
+--popover: #ffffff;
+--popover-foreground: #18181b;
+
+--muted: #f4f4f5;
+--muted-foreground: #71717a;
+
+--border: #e4e4e7;
+--input: #e4e4e7;
+
+--surface: #fafafa;
+--surface-dim: #e4e4e7;
+--surface-container:  #ececee;
+--surface-container-high: #ececee;
+--on-surface: #18181b;
+--on-surface-variant: #52525b;
+--outline: #71717a;
+--outline-variant: #d4d4d8;
+
+--primary: #6366f1;
+--primary-foreground: #ffffff;
+
+--secondary: #5a53a9;
+--secondary-foreground: #ffffff;
+
+--accent: #7067cc;
+--accent-foreground: #ffffff;
+
+--destructive: #ba1a1a;
+--destructive-foreground: #ffffff;
+
+--ring: #6366f1;
+
+--radius: 0.5rem;
 }
 
 .dark {
