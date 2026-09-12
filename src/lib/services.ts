@@ -20,7 +20,7 @@ export const services: Service[] = [
     {
         icon: Code,
         title:"Aplicações Web",
-        description: "Sistemas sob medida para resolver problemas específicos da sua operação .",
+        description: "Sistemas sob medida para resolver problemas específicos da sua operação.",
     },
     {
         icon: Settings,

@@ -20,14 +20,14 @@ export function ServicesSection() {
           {services.map((service) => {
             const Icon = service.icon;
             return (
-              <Card key={service.title} className='h-50 flex flex-col justify-around'>
-                <CardHeader className='gap-2 py-3'>
+              <Card key={service.title} className='min-h-40 flex flex-col justify-around'>
+                <CardHeader className='gap-2 py-2.5'>
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary/10 mb-2">
                     <Icon className="text-primary" size={22} />
                   </div>
 
-                  <CardTitle>{service.title}</CardTitle>
-                  <CardDescription>{service.description}</CardDescription>
+                  <CardTitle className='text-lg'>{service.title}</CardTitle>
+                  <CardDescription className="text-base">{service.description}</CardDescription>
                 </CardHeader>
               </Card>
             );
