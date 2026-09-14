@@ -1,7 +1,13 @@
 import Image from 'next/image';
+import { SiReact, SiTypescript, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 export function AboutSection() {
-  const stack = ['React', 'Next.js', 'Typescript', 'Tailwind CSS'];
+  const stack = [
+    {name: 'Typescript', icon:SiTypescript}, 
+    {name: 'Tailwind CSS', icon: SiTailwindcss},
+    {name:'React', icon: SiReact},
+    {name: 'Next.js', icon: SiNextdotjs}, 
+  ];
   return (
     <section className="py-16 md:py-24 bg-background">
       <div className="container-maevio px-6">
@@ -29,13 +35,20 @@ export function AboutSection() {
               que sua marca comunique confiança, inovação e clareza.
             </p>
             <div className='mt-2'>
-              <h3 className='text-muted-foreground text-md font-semibold uppercase tracking-wide mb-3'>
+              <h3 className=' text-md font-bold uppercase tracking-wide mb-3'>
                 Stack Principal
               </h3>
               <div className='flex flex-wrap gap-2'>
-                {stack.map((tech) => (
-                  <span className='bg-primary/10 text-primary px-4 py-2 rounded-full text-base mt-1' key={tech}>{tech}</span>
-                ))}
+                {stack.map((tech) => {
+                  const Icon = tech.icon;
+                  return (
+                    <span className='flex items-center bg-primary/10 text-primary px-4 py-2 rounded-full text-base mt-1 gap-1.5' key={tech.name}>
+                    <Icon className="text-primary" size={16}/>
+                    {tech.name}
+                    
+                  </span>
+                  )
+                  })}
               </div>
             </div>
           </div>

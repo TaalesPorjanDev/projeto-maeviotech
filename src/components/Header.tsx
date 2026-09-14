@@ -13,7 +13,7 @@ export function Header() {
       <div className="container-maevio flex items-center justify-between h-16">
         <Link href="/" className="flex items-center">
           <Image
-            className="w-40 h-auto shrink-0 md:w-46"
+            className="w-40 h-auto shrink-0 md:w-50"
             src="/images/maeviotech-logo.svg"
             alt="Maevio Tech"
             width={200}
