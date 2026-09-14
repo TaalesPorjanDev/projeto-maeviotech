@@ -4,30 +4,31 @@ import {
   CardTitle,
   CardDescription,
 } from '@/components/ui/card';
-import { services } from '@/lib/services';
+import { work } from '@/lib/works';
 
-export function ServicesSection() {
+export function WorksSection() {
   return (
-    <section className="py-16 md:py-24 bg-surface-container">
+    <section className="py-16 md:py-24 bg-background">
       <div className='container-maevio px-6'>
         <div className='mb-8 md:mb-10'>
           <h3 className="text-primary text-md font-semibold uppercase tracking-wide mb-3">
-            expertise
+            Sobre a maevioTech
           </h3>
-          <h2 className="text-3xl md:text-4xl font-bold">Do zero ao deploy</h2>
+          <h2 className="text-2xl md:text-4xl font-bold">Processo de trabalho</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {services.map((service) => {
-            const Icon = service.icon;
+          {work.map((works) => {
+            const Icon = works.icon;
             return (
-              <Card key={service.title} className='min-h-40 flex flex-col justify-around'>
+              <Card key={works.title} className='min-h-40 flex flex-col justify-around transition-shadow
+                hover:shadow-md'>
                 <CardHeader className='gap-2 px-5 pt-4 pb-5'>
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary/10 mb-2">
                     <Icon className="text-primary" size={22} />
                   </div>
 
-                  <CardTitle className='text-lg'>{service.title}</CardTitle>
-                  <CardDescription className="text-base">{service.description}</CardDescription>
+                  <CardTitle className='text-lg'>{works.title}</CardTitle>
+                  <CardDescription className="text-base">{works.description}</CardDescription>
                 </CardHeader>
               </Card>
             );
@@ -37,3 +38,4 @@ export function ServicesSection() {
     </section>
   );
 }
+

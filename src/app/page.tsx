@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/Hero";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ServicesSection } from "@/components/ServicesSection";
+import { WorksSection } from "@/components/WorksSection";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <ServicesSection />
       <AboutSection />
       <ProjectsSection />
+      <WorksSection />
     </div>
   );
 }

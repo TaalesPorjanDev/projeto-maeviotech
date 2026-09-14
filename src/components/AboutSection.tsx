@@ -38,7 +38,8 @@ export function AboutSection() {
               <h3 className=' text-md font-bold uppercase tracking-wide mb-3'>
                 Stack Principal
               </h3>
-              <div className='flex flex-wrap gap-2'>
+              <div className='flex flex-wrap gap-2 transition-shadow
+                hover:shadow-md'>
                 {stack.map((tech) => {
                   const Icon = tech.icon;
                   return (

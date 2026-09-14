@@ -7,7 +7,6 @@ import {
 
 import { projects } from "@/lib/projects"
 import { ArrowUpRight } from 'lucide-react';
-import { projectEntrypoints } from 'next/dist/build/swc/generated-native';
 import  Image from "next/image"
 import Link from 'next/link';
 
@@ -27,7 +26,7 @@ export function ProjectsSection() {
               {
                 return (
                    <Link href={project.link} key={project.id} target='_blank' rel='noopener noreferrer' aria-label='Ver Projetos MaevioTech' >
-                   <Card  className='overflow-hidden py-0 gap-0 transition-shadow
+                   <Card className='overflow-hidden py-0 gap-0 transition-shadow
                           hover:shadow-md'> 
                         <div className='relative aspect-2/1 w-full'>
                             <Image 
