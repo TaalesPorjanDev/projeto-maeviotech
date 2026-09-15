@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-      url: "/og-image.png",
+      url: "/images/og-image.png",
       width: 1366,
       height: 768,
       alt: "MaevioTech — Sites e sistemas web que fazem sua empresa vender mais",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "MaevioTech — Soluções Tecnológicas para Negócios Modernos",
     description:
       "Desenvolvemos sites e sistemas web sob medida para empresas que querem vender mais e se destacar online.",
-    images: ["/og-image.png"]
+    images: ["/images/og-image.png"]
   },
 };
 
