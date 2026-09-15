@@ -26,8 +26,8 @@ export function ProjectsSection() {
               {
                 return (
                    <Link href={project.link} key={project.id} target='_blank' rel='noopener noreferrer' aria-label='Ver Projetos MaevioTech' >
-                   <Card className='overflow-hidden py-0 gap-0 transition-shadow
-                          hover:shadow-md'> 
+                   <Card className='overflow-hidden py-0 gap-0 transition-transform duration-200 hover:-translate-y-2 
+                   hover:shadow-xl'> 
                         <div className='relative aspect-2/1 w-full'>
                             <Image 
                                 src={project.image}

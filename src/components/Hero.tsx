@@ -24,7 +24,10 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col items-center gap-4 w-full md:flex-row md:flex-wrap md:gap-6 md:w-auto">
             <Button
-              render={<Link href="/contato" />}
+              render={<Link href="https://wa.me/+5519994239492?text=Olá,%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20conversar" 
+              target='_blank'
+              rel="noopener noreferrer"
+              />}
               nativeButton={false}
               className="bg-primary hover:bg-primary/90 text-primary-foreground h-auto w-full md:w-auto text-sm font-bold px-6 py-4 rounded-lg
                 transition-colors md:px-8 md:text-lg"
@@ -33,7 +36,9 @@ export function HeroSection() {
               <ArrowRight className="ml-1 size-5" />
             </Button>
             <Link
-              href="/portfolio"
+              href="https://github.com/TaalesPorjanDev"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-primary font-semibold text-center bg-primary/10 rounded-lg text-sm hover:bg-primary/15
               transition-colors hover:text-primary/90 w-full md:w-auto px-6 py-4 md:text-lg"
             >

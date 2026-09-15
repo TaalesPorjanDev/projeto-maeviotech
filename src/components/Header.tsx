@@ -35,7 +35,11 @@ export function Header() {
         </nav>
 
         <Button
-          render={<Link href="/orcamento" />}
+          render={<Link href="https://wa.me/+5519994239492?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" 
+          target="_blank"
+          rel="noopener noreferrer"
+          />}
+          
           nativeButton={false}
           className="inline-flex ml-2 h-9 bg-primary hover:bg-primary/90 text-white text-xs 
           font-semibold px-3 py-2 rounded-lg transition-colors md:ml-6 md:mr-4 md:h-11 md:px-6 md:text-base"

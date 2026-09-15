@@ -20,7 +20,8 @@ export function ServicesSection() {
           {services.map((service) => {
             const Icon = service.icon;
             return (
-              <Card key={service.title} className='min-h-40 flex flex-col justify-around'>
+              <Card key={service.title} className='min-h-40 flex flex-col justify-around transition-transform 
+              duration-200 hover:-translate-y-2 hover:shadow-xl'>
                 <CardHeader className='gap-2 px-5 pt-4 pb-5'>
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary/10 mb-2">
                     <Icon className="text-primary" size={22} />
