@@ -44,7 +44,8 @@ export function AboutSection() {
                   const Icon = tech.icon;
                   return (
                     <span className='flex items-center bg-primary/10 text-primary px-4 py-2 rounded-full text-base mt-1 gap-1.5' key={tech.name}>
-                    <Icon className="text-primary" size={16}/>
+                    <Icon className="text-primary" size={16} aria-label={tech.name}
+                     role="img"/>
                     {tech.name}
                     
                   </span>
