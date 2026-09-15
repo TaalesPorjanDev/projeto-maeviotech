@@ -6,12 +6,19 @@ import { HeroSection } from "@/components/Hero";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { WorksSection } from "@/components/WorksSection";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Desenvolvimento Web para Pequenas e Médias Empresas",
+  description:
+    "Desenvolvemos sites e sistemas web sob medida para empresas que querem vender mais e se destacar online.",
+};
 
 
 
 export default function Home() {
   return (
-     <div>
+     <main>
       <Header />
       <HeroSection />
       <ServicesSection />
@@ -20,6 +27,6 @@ export default function Home() {
       <WorksSection />
       <ContactSection/>
       <Footer />
-    </div>
+    </main>
   );
 }
