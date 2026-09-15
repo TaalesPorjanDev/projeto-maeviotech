@@ -74,10 +74,7 @@ export function Footer() {
         justify-between gap-2">
           <p className='text-muted-foreground'>© 2026 MaevioTech. Todos os direitos reservados.</p>
 
-          <div className="flex gap-2">
-            <Link href="/privacidade" className='text-muted-foreground'>Privacidade</Link>
-            <Link href="/termos" className='text-muted-foreground'>Termos</Link>
-          </div>
+          
         </div>
       </section>
     </footer>
