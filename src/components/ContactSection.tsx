@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 
 export function ContactSection() {
   return (
-    <section className="bg-surface-container py-24">
+    <section id="contato"className="bg-surface-container py-24">
       <div className="container-maevio">
         <div className='bg-primary rounded-3xl py-16 md:py-24 text-center w-full px-6 md:px-12'>
           <h2 className='text-3xl md:text-4xl font-bold text-primary-foreground mb-4'>Pronto para começar seu projeto?</h2>

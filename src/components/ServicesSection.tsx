@@ -8,7 +8,7 @@ import { services } from '@/lib/services';
 
 export function ServicesSection() {
   return (
-    <section className="py-16 md:py-24 bg-surface-container">
+    <section id="servicos" className="py-16 md:py-24 bg-surface-container">
       <div className='container-maevio px-6'>
         <div className='mb-8 md:mb-10'>
           <span className="text-primary text-md font-semibold uppercase tracking-wide mb-3">

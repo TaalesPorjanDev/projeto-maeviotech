@@ -28,7 +28,7 @@ export function Header() {
               key={link.href}
               href={link.href}
               className="text-gray-600 font-medium py-3 transition-colors hover:text-primary/90 text-center"
-            >
+            > 
               {link.label}
             </Link>
           ))}

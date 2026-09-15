@@ -9,7 +9,7 @@ export function AboutSection() {
     {name: 'Next.js', icon: SiNextdotjs}, 
   ];
   return (
-    <section className="py-16 md:py-24 bg-background">
+    <section id="sobre"className="py-16 md:py-24 bg-background">
       <div className="container-maevio px-6">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-12">
           <div className="relative w-full md:w-[45%] aspect-4/3 rounded-2xl overflow-hidden shadow-xl">

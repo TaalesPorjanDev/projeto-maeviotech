@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 export function ProjectsSection() {
   return (
-    <section className='py-16 md:py-24 bg-surface-container'>
+    <section id="portfolio"className='py-16 md:py-24 bg-surface-container'>
       <div className='container-maevio px-6'>
         <div className='mb-6 md:mb-10'>
           <span className='text-primary text-sm font-semibold uppercase tracking-wide mb-3'>Projetos em Destaque</span>

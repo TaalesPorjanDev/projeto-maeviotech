@@ -88,6 +88,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 @layer components {
   .display-lg {
