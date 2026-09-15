@@ -11,9 +11,9 @@ export function ServicesSection() {
     <section className="py-16 md:py-24 bg-surface-container">
       <div className='container-maevio px-6'>
         <div className='mb-8 md:mb-10'>
-          <h3 className="text-primary text-md font-semibold uppercase tracking-wide mb-3">
+          <span className="text-primary text-md font-semibold uppercase tracking-wide mb-3">
             expertise
-          </h3>
+          </span>
           <h2 className="text-3xl md:text-4xl font-bold">Do zero ao deploy</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

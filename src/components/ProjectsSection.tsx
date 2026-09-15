@@ -15,7 +15,7 @@ export function ProjectsSection() {
     <section className='py-16 md:py-24 bg-surface-container'>
       <div className='container-maevio px-6'>
         <div className='mb-6 md:mb-10'>
-          <h3 className='text-primary text-sm font-semibold uppercase tracking-wide mb-3'>Projetos em Destaque</h3>
+          <span className='text-primary text-sm font-semibold uppercase tracking-wide mb-3'>Projetos em Destaque</span>
           <p className='text-muted-foreground text-base md:text-lg'>
             Uma seleção de trabalhos recentes focados em interfaces limpas e
             arquitetura escalável
