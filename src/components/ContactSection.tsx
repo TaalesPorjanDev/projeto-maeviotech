@@ -13,6 +13,7 @@ export function ContactSection() {
           </p>
 
           <Button
+            nativeButton={false}
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 px-10 py-8  font-semibold
             text-base md:text-lg transition-transform hover:-translate-y-1.5 duration-200"
             render={
