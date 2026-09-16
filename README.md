@@ -2,7 +2,7 @@
 
 > Sites e sistemas web que fazem sua empresa vender mais.
 
-![Hero](./public/images/imagem-hero.png)
+![Hero](./public/images/screenshots/imagem-hero.png)
 
 ## 📋 Sobre o Projeto
 
@@ -22,16 +22,16 @@ Este repositório contém o site institucional da MaevioTech, desenvolvido com f
 ## 🖥️ Screenshots
 
 ### Hero
-![Hero Section](./public/images/imagem-hero.png)
+![Hero Section](./public/images/screenshots/imagem-hero.png)
 
 ### Serviços e Sobre
-![Services and About](./public/images/imagem-section1.png)
+![Services and About](./public/images/screenshots/imagem-section1.png)
 
 ### Portfólio e Processo de Trabalho
-![Portfolio and Work Process](./public/images/imagem-section2.png)
+![Portfolio and Work Process](./public/images/screenshots/imagem-section2.png)
 
 ### Contato e Footer
-![Contact and Footer](./public/images/imagem-footer.png)
+![Contact and Footer](./public/images/screenshots/imagem-footer.png)
 
 ## 🛠️ Tecnologias
 
