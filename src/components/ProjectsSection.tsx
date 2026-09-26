@@ -15,10 +15,9 @@ export function ProjectsSection() {
     <section id="portfolio"className='py-16 md:py-24 bg-surface-container'>
       <div className='container-maevio px-6'>
         <div className='mb-6 md:mb-10'>
-          <span className='text-primary text-sm font-semibold uppercase tracking-wide mb-3'>Projetos em Destaque</span>
-          <p className='text-muted-foreground text-sm md:text-lg'>
-            Uma seleção de trabalhos recentes focados em interfaces limpas e
-            arquitetura escalável
+          <span className='text-primary text-md font-semibold uppercase tracking-wide mb-3'>Projetos em Destaque</span>
+          <p className='text-muted-foreground text-sm md:text-lg mt-2'>
+            Conheça alguns projetos que demonstram como transformamos diferentes necessidades em soluções digitais.
           </p>
         </div>
         <div className='grid  grid-cols-1 md:grid-cols-3 gap-8'>
@@ -37,13 +36,16 @@ export function ProjectsSection() {
                                 className='object-cover'
                             />
                         </div>
-                        <CardHeader className='gap-2 px-5 pt-4 pb-5'>
+                        <CardHeader className='gap-3 px-6 pt-6 pb-7'>
+                          <span className='text-xs font-semibold uppercase tracking-wide text-primary'>
+                            {project.category}
+                          </span>
                             <CardTitle className='flex items-center justify-between'>
                                 {project.title} 
                                 <ArrowUpRight className='size-4 text-muted-foreground' aria-hidden="true"/>
                             </CardTitle>
 
-                            <CardDescription>
+                            <CardDescription className='leading-relaxed'>
                                 {project.description}
                             </CardDescription>
                         </CardHeader>

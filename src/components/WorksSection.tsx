@@ -12,17 +12,17 @@ export function WorksSection() {
       <div className='container-maevio px-6'>
         <div className='mb-8 md:mb-10'>
           <h3 className="text-primary text-md font-semibold uppercase tracking-wide mb-3">
-            Sobre a maevioTech
+            COMO TRABALHAMOS
           </h3>
-          <h2 className="text-2xl md:text-4xl font-bold">Processo de trabalho</h2>
+          <h2 className="text-2xl md:text-4xl font-bold">Do planejamento ao lançamento</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {work.map((works) => {
             const Icon = works.icon;
             return (
-              <Card key={works.title} className='min-h-40 flex flex-col justify-around transition-transform duration-200 
+              <Card key={works.title} className='min-h-40 flex flex-col justify-start transition-transform duration-200 
                 hover:-translate-y-2 hover:shadow-xl'>
-                <CardHeader className='gap-2 px-5 pt-4 pb-5'>
+                <CardHeader className='gap-3 px-5 pt-5 pb-5'>
                   <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-primary/10 mb-2">
                     <Icon className="text-primary" size={22} />
                   </div>

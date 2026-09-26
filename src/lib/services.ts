@@ -10,22 +10,22 @@ export const services: Service[] = [
     {
         icon: LayoutTemplate,
         title:"Landing Pages",
-        description: "Páginas rápidas e otimizadas para conversão, feitas para vender.",
+        description: "Páginas rápidas e estratégicas, desenvolvidas para apresentar sua oferta e transformar visitantes em clientes.",
     },
     {
         icon: Building,
         title:"Sites Institucionais",
-        description: "Presença digital sólida que passa credibilidade para seu negócio.",
+        description: "Sites profissionais que fortalecem sua presença digital e transmitem mais credibilidade para sua empresa.",
     },
     {
         icon: Code,
-        title:"Aplicações Web",
-        description: "Sistemas sob medida para resolver problemas específicos da sua operação.",
+        title:"Sistemas Web",
+        description: "Soluções sob medida para organizar processos, automatizar tarefas e atender às necessidades da sua operação.",
     },
     {
         icon: Settings,
-        title:"Manutenção",
-        description: "Suporte contínuo para manter tudo rodando sem dor de cabeça.",
+        title:"Manutenção e Suporte",
+        description: "Acompanhamento contínuo para manter suas soluções atualizadas, seguras e funcionando corretamente.",
     },
     
 ]

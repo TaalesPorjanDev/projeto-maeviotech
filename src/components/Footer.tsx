@@ -40,8 +40,7 @@ export function Footer() {
               />
             </Link>
             <p className='text-muted-foreground'>
-              Soluções Técnológicas precisas para negócios modernos e
-              sofisticados.
+              Soluções digitais sob medida para transformar ideias e impulsionar negócios.
             </p>
           </div>
           <div className="flex items-center">
